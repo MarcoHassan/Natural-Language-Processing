@@ -61,10 +61,18 @@ The newspaper articles are already sorted by category in our dataset and hence t
 
 The Latent Drichlet Allocation relies on the EM-algorithm to understand the underlying classes in the model. Given a set of classes specified by the user the Latent Drichlet Allocation iteratively optimizes the metaparameters of the model in order to maximize the likelihood that a bunch of words falls into a give class. This iterative improvement takes place through the EM-algorithm.
 
-In the specific case applying the analyis assuming the existence of 5 classes, the most frequent words assigned to each class are shown in the following graph.
+In the specific case applying the analyis assuming the existence of 5 classes, the most frequent words assigned to each class with the highest probability are shown in the following graph.
 
 
 ![image](https://user-images.githubusercontent.com/42472072/52471895-a97cd800-2b9a-11e9-9480-53a05fa911b6.png)
+
+Interestingly enough the words appearing seems to belong to the same semantic context. The first class seems to very much represent internal politics, the second one seems to refer to macroeconomics and international economics, the third one to internal and external security etc...
+
+Its is moreover possible to check how many words of each magazine falls into one of the different created topics.
+
+![image](https://user-images.githubusercontent.com/42472072/52471512-bea53700-2b99-11e9-9b16-b0a6dfb05631.png)
+
+Here the picture is more scattered but nonetheless some trends are noticeable like the first topic being clearly associated with the Politics Magazine.
 
 
 
