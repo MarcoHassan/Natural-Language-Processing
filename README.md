@@ -53,6 +53,20 @@ Interestingly we also decided to plot the most important words in determining th
 
 ![image](https://user-images.githubusercontent.com/42472072/52471300-3cb50e00-2b99-11e9-9845-58920e3a0d60.png)
 
+## Latent Drichlet Allocation
+
+Turning to a more advanced statistical analyis we decided to implement a Latent Drichlet Allocation. This is particular uselful in case of categorizing a text in natural language.
+
+The newspaper articles are already sorted by category in our dataset and hence this analysis should be thought much more as an exercise rather than adding structure to the analysis.
+
+The Latent Drichlet Allocation relies on the EM-algorithm to understand the underlying classes in the model. Given a set of classes specified by the user the Latent Drichlet Allocation iteratively optimizes the metaparameters of the model in order to maximize the likelihood that a bunch of words falls into a give class. This iterative improvement takes place through the EM-algorithm.
+
+In the specific case applying the analyis assuming the existence of 5 classes, the most frequent words assigned to each class are shown in the following graph.
+
+
+![image](https://user-images.githubusercontent.com/42472072/52471895-a97cd800-2b9a-11e9-9480-53a05fa911b6.png)
+
+
 
 
 
