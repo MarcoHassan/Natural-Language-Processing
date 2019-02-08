@@ -16,9 +16,27 @@ In the subsequent section, we use publicly available lexicons to attribute "sent
 
 Finally, we fit an LDA model and analyze what every Topic contains.
 
-**Main source:** Text Mining in R - https://www.tidytextmining.com/index.html -.
+**Main source:**  <a href = "https://www.tidytextmining.com/index.html" target = "_blank">Text Mining in R</a>
 
 NB: The second project ('Text Mining') analyzes the differences we do not simply take into account the stopwords but we use instead a frequency based approach. The second project also includes bigrams instead of single words.
 Latent Drichlet Analysis to Magazine Articles
+
+## Data Cleaning
+
+First we have to clean and preprocess the data. The following steps are made to do so:
+
+- Keep only the articles with at least approx. 250 words (arbitrary number).
+- Select a random sample of size 1'000.
+- Remove all the punctuations, the possessive forms ('s), the word 'reuter'.
+
+Then we do preliminary cleaning. In particular, keeping only the articles with at least 250 words (arbitrary number, approximation). Then we randomly select a subsample of size $N$.
+
+## Descriptive Statistics
+
+This are genearal descriptive statistics for the whole Corpus.
+
+![image](https://user-images.githubusercontent.com/42472072/52470610-56555600-2b97-11e9-9eb5-0f7f81ecbe05.png)
+
+
 
 
