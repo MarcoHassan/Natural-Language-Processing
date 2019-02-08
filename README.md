@@ -37,6 +37,24 @@ This are genearal descriptive statistics for the whole Corpus.
 
 ![image](https://user-images.githubusercontent.com/42472072/52470610-56555600-2b97-11e9-9eb5-0f7f81ecbe05.png)
 
+![image](https://user-images.githubusercontent.com/42472072/52470917-2490bf00-2b98-11e9-9404-0729c3082e0d.png)
+
+## Sentiment Analysis
+
+We subsequently analyzed the sentiment in the Corpus through two dictionaries. We just kept words falling in the categories "positive" and "negative" in the dictionaries.
+
+Note that changing the lexicon has a huge impact on the results. Indeed, "Trump" is not recognised in "nrc", but it's a very frequent word overall. Therefore, it changes the rest of the analysis. 
+
+![image](https://user-images.githubusercontent.com/42472072/52470979-4ab65f00-2b98-11e9-93da-461fc3616868.png)
+
+Based on this analysis we could subsequently identified the atricles scoring worst in the sentiment index and we could quickly read their abstract to get an idea without having to go through all of the huge amount of articles but getting right to the source of the (potential) probelm. 
+
+Interestingly we also decided to plot the most important words in determining the sentiments analysis observing an asymmetric distribution with few positive words appearing more frequently and highly impacting the tone of the newspaper articles.
+
+![image](https://user-images.githubusercontent.com/42472072/52471300-3cb50e00-2b99-11e9-9845-58920e3a0d60.png)
+
+
+
 
 
 
