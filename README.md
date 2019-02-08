@@ -53,6 +53,10 @@ Interestingly we also decided to plot the most important words in determining th
 
 ![image](https://user-images.githubusercontent.com/42472072/52471300-3cb50e00-2b99-11e9-9845-58920e3a0d60.png)
 
+Moreover some Magazine seems to display on average a more positive tone compared to some other throughout the year of 2018.
+
+![image](https://user-images.githubusercontent.com/42472072/52472291-a1716800-2b9b-11e9-8319-799bbd29de3f.png)
+
 ## Latent Drichlet Allocation
 
 Turning to a more advanced statistical analyis we decided to implement a Latent Drichlet Allocation. This is particular uselful in case of categorizing a text in natural language.
@@ -75,7 +79,17 @@ Its is moreover possible to check how many words of each magazine falls into one
 Here the picture is more scattered but nonetheless some trends are noticeable like the first topic being clearly associated with the Politics Magazine.
 
 
+## Final Section
 
+The final section contains some refinements to the code displayed so far.
+
+Words are weighted with the **term frequency - inverse document frequency (idf)** statistics that measure how important a word is to a document in a collection (or corpus) of documents.
+
+This have proven to be fundamental in text mining as the importance of the word is now weihted by the numbers of articles in which the word appears. If the word appears in many articles it is possibly a most widly used word that does not relly reveals the context of a text and it is therefore underweighted in comparison to a word that appears frequently in some articles but not so often in general.
+
+According to this new weight new descriptive analysis with the weighted words can be derived and interestingly enought the results quite differ and are more specific. It is less about government in genral but more about Syria and Aleppo etc.
+
+A second improvement is done by looking at bundels of words in the text mining analysis and in the sentiment analysis. Like that we were able to filter out words preceeded by negation terms that would revert the classical meaning of a word and do further refinements, which are outlined in the document.
 
 
 
