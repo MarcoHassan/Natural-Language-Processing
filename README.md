@@ -1,8 +1,8 @@
 # R Natural Language Processing
 
-### Authors: Antoine Gex-Fabry, Marco Hassan, Jonas Clemens
+#### Authors: Antoine Gex-Fabry, Marco Hassan, Jonas Clemens
 
-### Three days project on text mining, sentiment analysis and a final Latent Drichlet Allocation.
+#### Three days project on text mining, sentiment analysis and a final Latent Drichlet Allocation.
 
 # Goal of the project
 This part is a baseline model to do Topic Modelling. In this project, the goal is to fit an LDA model to the news articles and analyze and interpret the results intuitively. Here are the main elements of the analysis:
